@@ -1,0 +1,30 @@
+body{
+    color: darkslategrey;
+}
+p{
+    color: blue;
+}
+
+.commercial:nth-of-type(2){
+    background:bisque;
+    color: black;
+}
+/* this does not inherit */
+
+ol{ /*all li's inherit color from the ol */
+    color: aquamarine;
+}
+
+li{
+    color: orange;
+}
+
+/* THERE IS AN ORDER WHERE CERTAIN ATTRIBUTES/TAGS Have more influence */
+/* From least to most influence:
+UNIVERSAL *
+TYPE <h1>, <p>
+Class .
+Id #
+inline styles
+*/
+

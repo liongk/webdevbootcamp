@@ -1,0 +1,32 @@
+h1{
+    color: rgb(13, 86, 223);
+    border: 3px solid #fdff92 ;
+    background: rgb(173, 255, 223);
+}
+
+div{
+    background: rgb(173, 255, 223);
+    border: 3px solid #fdff92 ;
+
+}
+
+/* hash sign relates to an ID */
+#list{
+    background: rgb(255, 202, 57);
+}
+
+/* id */
+#todoone{
+    background: rgba(13, 87, 223, 0.123);
+    border: 2px dotted #f930f9;
+}
+
+/* using a class as a selector */
+.highlight{
+    background: rgb(255, 214, 180);
+    text-decoration: underline;
+}
+
+.highlight2{
+    background: rgb(173, 255, 223);
+}

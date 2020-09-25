@@ -1,0 +1,48 @@
+/* css boilerplate:
+tag{
+    property: property;
+} */
+
+h2{
+    background: #f36b08;
+    color: white; /*this is a default css colorscheme */
+}
+li{
+    color: #4169e1;
+    /* this is a hexadecimal */
+}
+h1{
+    color: rgba(0,32,255);
+    /* rgb system */
+
+    /* lets add borders. In css, borders have
+    a width;
+    color;
+    style */
+
+    /* border: #f36b08;
+    border-width: 3px;
+    /* border-style: dotted; 
+    border-style: solid; */
+
+    border: 5px solid #f36b08
+}
+
+h3 {
+    color: rgba(0, 0, 255, 0.8)
+    /* allows for rgb with alpha (transparency) */
+    /* alpha ranges from 0 to 1 */
+}
+
+/* entire screen */
+body{
+    /* background: rgb(219, 207, 238); */
+    background: url(https://www.superprof.co.uk/blog/wp-content/uploads/2017/12/textile-color-colorful-fabric-texture-rainbow-1060x708.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* image background */
+}
+
+div{
+    background: rgba(255, 255, 255, 0.4);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This is a table
+    I included a border, but this is not recommended, css styling is better -->
+    <table border="1">
+
+        <thead> <!-- table head, unnesacary but simplifies things -->
+            <!-- table row -->
+            <tr>
+                <!-- table header -->
+                <th>Car Brand</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- table body, unnesacary as well -->
+            <tr>
+                <!-- table cell -->
+                <td>Honda</td>
+                <td>White</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Log in</h1>
+
+    <!-- action = where the form sends data to
+    method = what http method (get/post) -->
+
+    <!-- This is a form. Note this is front end rn. It acts as a container -->
+    <form action="https://wikipedia.org" method="GET">
+        <!-- These are some input types -->
+
+        <!-- labels act as captions. Method 1: -->
+        <label>Username: <input name = username type="text" placeholder="User" required></label>
+
+        <label>Email: <input name = email type="email" placeholder="email" required></label>
+        
+        <!-- Method 2 does not nest the input in the label. Id is applicable for css -->
+        <label for= "password">Password: </label>
+        <input id = "password"name = password type="password" placeholder="Pass" required>
+
+        <button>Submit</button>
+         
+    </form>
+
+        <p>Are you male or female?</p>
+
+        <form>
+            <label for= male>Male: </label>
+            <input id= male name = gender type = "radio" value="male">
+            <label for= female>Female: </label>
+            <input id = female  name = gender type = "radio" value="female">
+        
+        
+        <!-- create dropdown menus -->
+        <p>Pick a country: </p>
+        <select name="Continent">
+            <option value="America">Argentina</option>
+            <option value="Asia">China</option>
+            <option value="Africa">Cameroon</option>
+            <option value="Oceania">New Zealand</option>
+        </select>
+        <input type="text">
+
+
+        <textarea name = "story" rows = "30" cols="50"></textarea>
+        <button>Go!</button>
+    </form>
+
+
+
+</body>
+</html>

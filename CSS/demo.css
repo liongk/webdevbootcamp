@@ -1,0 +1,83 @@
+/* universal */
+*{
+    margin: 3px;
+}
+
+/* element */
+
+h1{
+    color: white;
+    background: rgb(118, 50, 228);
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(64, 117, 231);
+}
+
+p{
+    color: rgb(37, 102, 241);
+}
+
+/* both */
+p.framework{
+    color: black;
+    background: coral;
+}
+/* id */
+#Text, #webscraper{
+    color: black;
+    background: rgb(171, 197, 255);
+    border: 2px solid rgb(122, 162, 250);
+}
+
+/* class */
+
+.framework{
+    color: white;
+    background: rgb(68, 50, 228);
+}
+
+.Webdev{
+    color: white;
+    background: rgb(68, 50, 228);
+}
+
+.c{
+    color: white;
+    background: rgb(118, 50, 228);
+}
+
+
+/* inherited */
+li .other_appliccations{
+    color: white;
+    text-decoration:line-through;
+}
+
+li a{
+    color: red;
+}
+
+/* adjacent */
+
+h3 + ul{
+    border: 4px solid aqua;
+}
+
+/* attribute selector */
+
+a[href = "https://www.java.com/en/download/"]{
+    background: rgba(179, 255, 156, 0.8);
+}
+
+div{
+    background: violet;
+}
+
+.framework:nth-of-type(2){
+    background: purple;
+}
+
+

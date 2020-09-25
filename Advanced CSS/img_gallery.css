@@ -1,0 +1,18 @@
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h2{
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: black;
+    text-align: center;
+}

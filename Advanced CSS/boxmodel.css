@@ -1,0 +1,46 @@
+body{
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 1.25em;
+    font-family: 'Jost', sans-serif;
+
+}
+
+span{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* fonting */
+
+/* box model */
+p{
+    /* content-w and height; */
+    width: 50%;
+    /* this is 50% of the body */
+    height: 20%;
+
+    /* border: */
+    border: 2px black solid;
+    
+    /* Padding */
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+
+    padding: 25px 10px 25px 10px;
+    /* top right bottom left */
+    /* not all 4 args are needed */
+
+    /* Margin - space around border */
+    /* margin: 25px 10px 25px 10px; */
+    margin: 25px auto;
+}
